@@ -15,37 +15,40 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<div class="myDiv">
 
 <!-- Heading with phone number -->
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row text-center">
-			<div class="col-sm-3">
+			<div class="col-sm-4">
+				<a href="#" class="navbar-brand">DHC Automotive</a>
+			</div>
+			<div class="col-sm-4">
 				
 			</div>
-			<div class="col-sm-3">
-				<h3 class="text-uppercase">call us today</h3>
+			<div class="col-sm-2">
+				<h4 class="text-uppercase">call us today</h4>
 			</div>
-			<div class="col-sm-3">
-				<h3><a href="tel:1-919-732-1056">	(919) 732-1056</a></h3>
+			<div class="col-sm-2">
+				<h4><a href="tel:1-919-732-1056">	(919) 732-1056</a></h4>
 			</div>
 		</div>
 	</div>
 
 
 <!-- Navigation -->
-
+<div class="container">
 	<nav class="navbar navbar-inverse">
 		<div class="container">
-      			<a href="#" class="navbar-brand">DHC Automotive</a>
+      			
     			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
     				<span class="icon-bar"></span>
     				<span class="icon-bar"></span>
     				<span class="icon-bar"></span>
     			</button>
     		<div class="collapse navbar-collapse navHeaderCollapse">
-    			<ul class="nav navbar-nav navbar-right">
+    			<ul class="nav nav-pills text-center">
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Services</a></li>
@@ -54,50 +57,69 @@
     		</div>
 		</div>
 	</nav>
-	
-
-	<!-- Image -->
-	<!-- NOTE THIS IS A TEMPORARY IMAGE -->
-
-	<div class="container">
-		<img src="http://www.dunellenautorepair.com/pic2.jpg" class="img-responsive">
-
 	</div>
 
-<br />
+	<!-- Image -->
+	<!-- NOTE THIS IS A TEMPORARY IMAGE
 
-<div class="container text-center">
-	<h1>DHC Automotive</h1>
-	<p>DHC Automotive provides expert automotive repairs to the Hillsborugh NC area...<br> Additional general information about company here.</p>
+	<div id="mainImg" class="container-fluid">
+		<img src="http://www.dunellenautorepair.com/pic2.jpg" class="img-responsive">
+	</div>
+
+ -->
+
+
+<br />
+<div class="container-fluid">
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Welcome to DHC Automotive</h1>
+			<h3>We provide oil changes, factory scheduled maintenance, inspections, and just about all auto repair services.</h3>
+			<br />
+			<p>DHC Automotive provides expert automotive repairs and maintenance to the Hillsborough NC area. Being family owned and operated, we truly care about the service our customers receive. To offer you the most convenience, we will even pick up your vehicle for repair. We handle auto repair and maintenance services on all makes and models of cars, trucks, and SUVs and invite you to contact us about your next scheduled maintenance or repair.</p>
+		</div>
+	</div>
 </div>
+
+
 
 
 <!-- Information on main services tab -->
 
-<div class="container">
+<br />
+
+<div class="container infotog">
 <ul class="nav nav-tabs nav-justified">
-  <li class="active"><a data-toggle="tab" href="#tab1">Repairs</a></li>
-  <li><a data-toggle="tab" href="#tab2">Towing</a></li>
-  <li><a data-toggle="tab" href="#tab3">Maintaince</a></li>
-  <li><a data-toggle="tab" href="#tab4">Inspections</a></li>
+  <li class="active"><a data-toggle="tab" href="#tab1">Maintaince</a></li>
+  <li><a data-toggle="tab" href="#tab2">Engine Service</a></li>
+  <li><a data-toggle="tab" href="#tab3">Transmission Service</a></li>
+  <li><a data-toggle="tab" href="#tab4">Towing</a></li>
 </ul>
 
 <div class="tab-content">
   <div id="tab1" class="tab-pane fade in active">
-    <h3>Repairs</h3>
-    <p>Content regarding repairs</p>
-  </div>
-  <div id="tab2" class="tab-pane fade">
-    <h3>Towing</h3>
-    <p>Content regarding towing</p>
-  </div>
-  <div id="tab3" class="tab-pane fade">
+  	<div class="container">
     <h3>Maintaince</h3>
-    <p>Content regarding maintance</p>
+    <p>To reduce the risk of future serious problems and improved driving quality, it is important that your vehicle receives proper and routine maintenance. We offer complete vehicle maintenance including factory scheduled maintenance, oil changes, check engine light diagnostics and repair, brake repair, DOT inspections, and much more.</p>
   </div>
+</div>
+  <div id="tab2" class="tab-pane fade">
+  	<div class="container">
+    <h3>Engine Service</h3>
+    <p>If your vehicle shows any signs of trouble you can bring it to us for full service repair. We offer a variety of engine services including maintenance, repair, rebuild, and replacement.</p>
+  </div>
+</div>
+  <div id="tab3" class="tab-pane fade">
+  	<div class="container">
+    <h3>Transmission Service</h3>
+    <p>We regularly perform transmission work for customers. Whether it's regular preventive maintenance or you need your transmission rebuilt, we can provide the service. Or transmission services include maintenance, repair, rebuild, and replacement.</p>
+  </div>
+</div>
   <div id="tab4" class="tab-pane fade">
-    <h3>Inspections</h3>
-    <p>Content regarding inspections</p>
+  	<div class="container">
+    <h3>Towing</h3>
+    <p>To offer your the most convenience, we provide local towing services for DHC Automotive customers. Just call our office at (919) 732-1056 or fill out the form on our contact page to schedule or receive information about our towing services. </p>
+  </div>
   </div>
 </div>
 </div>
@@ -105,27 +127,31 @@
 <br />
 
 <!-- Additional Contact Section -->
-
-<div class="container text-center">
+<div class="container">
+<div class="jumbotron text-center">
 		<h2 class="text-uppercase">Contact Us Today!</h2>
 		<p>Are you in need of vehicle repair or maintaince? DHC Automotive offers a variety of services for your automotive needs. Give us a call today at (919) 732-1056 or click the link below to fill out a contact form.</p>
-		<button type="button" class="btn btn-primary"><a herf="#">Contact</a></button>
+		<button type="button" class="btn btn-secondary"><a herf="#">Contact</a></button>
+		
 	</div>
 	<br />
+</div>
 
 <!-- Footer -->
 
-<div class="navbar navbar-inverse">
+<div class="navbar navbar-inverse navbar-static-top">
 	 <div class="container">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3 text-center">
 				<h2>DHC Automotive</h2>
 			</div>
-			<div class="col-sm-4 text-center">
+			<div class="col-sm-6 text-center">
 				
 				<h6>3623 Walnut Grove Church Rd</h6>
 				<h6>Hillsborough, NC 27278</h6>
-				<h6>(919) 732-1056</h6>
+				<h6>Phone: (919) 732-1056</h6>
+				<h6>Fax: (919) 643-0579</h6>
+				<h6>Email: lovinwv@yahoo.com</h6>
 			</div>
 			<div class="navbar-text pull-right">
 				<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
@@ -133,6 +159,7 @@
 			
 		</div>
 	</div>
+</div>
 </div>
 </body>
 </html>
